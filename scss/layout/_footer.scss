@@ -1,0 +1,15 @@
+/**  footer - pagina: index */
+
+.container-footer {
+    height: 60px;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+.container_item-footer a img {
+    width: 30px;
+    height: 30px;
+}

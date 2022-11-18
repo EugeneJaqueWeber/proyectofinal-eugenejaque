@@ -1,0 +1,46 @@
+/**  header - pagina: index */
+
+.nav {
+    background-color: black;
+   
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.nav_title {
+    color: white;
+    margin-top: 5px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav_list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+.nav_link {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .nav {
+        height: 60px;
+        display: grid;
+        grid-template-columns: 1fr 500px;
+        grid-template-rows: 1fr;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .nav_list {
+        gap: 1.5em;
+    }
+}
